@@ -1,0 +1,17 @@
+var x = 2;
+var y = 39;
+var z = "42";
+eval("x + y + 1"); // returns 42
+var t =eval(z); // returns 42
+println(t);
+var str = "if ( a ) { 1+1;} else {1+2; }";
+var a = true;
+var b = eval(str); // returns 2
+var exp = "var x=5;var y=6;function mult(a){return a * y;}";
+eval(exp);
+var c = mult(x)+4;
+println(c); //return 15
+strfun = "function myfun(arg) { return arg * 3; }";
+eval(strfun);
+function usefun(x) { var res = myfun(x); return res; }
+var myres = usefun(5); //return 8

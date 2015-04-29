@@ -1,0 +1,23 @@
+var x = 1;
+
+switch(x)
+{
+	case 1: x = x+10;break;
+	case 2: x++; break;
+	case 5: x--; break;
+default: println(x);
+}
+println(x);
+
+var s = "sun";
+switch(s)
+{
+	case "day": s = "monday"; break;
+	case "tue": s = "tuesday"; break;
+        case "wed": s = "wednesday"; break;
+	case "thu": s = "thursday"; break;
+        case "fri": s= "friday"; break;
+        case "sat": s= "saturday"; break;
+        default:s="sunday";
+}
+println(s);

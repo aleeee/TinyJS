@@ -1,0 +1,5 @@
+var n = 1;
+println("while loop");
+while(n < 7){
+println(n);
+n++;}

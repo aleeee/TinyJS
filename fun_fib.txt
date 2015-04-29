@@ -1,0 +1,15 @@
+function fib(n)
+{
+	if ((n == 0)||(n == 1)){ return n; }
+	else
+	{
+		var a, b;
+		a = fib(n-1);
+		b = fib(n-2);
+		return a+b;
+	}
+}
+
+var x = 8;
+println("Fibonacci of 8 = ");
+println(fib(x));
